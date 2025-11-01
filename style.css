@@ -99,8 +99,12 @@ header a:hover{
     font-size: 50px;
     font-style: light;
     padding: 0 0.7em;
+    transition: ease-out 0.4s box-shadow;
+}
 
-
+.btn1:hover{
+    box-shadow: inset 400px 0 0 0 rgb(238, 33, 146);
+    
 }
 
 .btn2{
@@ -110,6 +114,11 @@ header a:hover{
     font-size: 50px;
     font-weight: 200;
     padding: 0 0.7em;
+}
+
+.btn2:hover{
+    transform: scale(10);
+    transition: transform 0.2s linear;
 }
 
 #trailer{
